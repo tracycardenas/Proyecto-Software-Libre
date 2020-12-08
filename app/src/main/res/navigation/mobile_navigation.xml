@@ -18,7 +18,7 @@
     <fragment
         android:id="@+id/nav_home_second"
         android:name="ec.edu.ups.pm.proyecto.ui.home.HomeSecondFragment"
-        android:label="@string/home_second"
+        android:label="Inicio"
         tools:layout="@layout/fragment_home_second">
         <action
             android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
@@ -40,4 +40,14 @@
         android:name="ec.edu.ups.pm.proyecto.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_sistemas"
+        android:name="ec.edu.ups.pm.proyecto.ui.SistemasCuerpoHumanoFragment"
+        android:label="Sistemas del Cuerpo Humano"
+        tools:layout="@layout/fragment_sistemas_cuerpo_humano" />
+    <fragment
+        android:id="@+id/nav_informacion"
+        android:name="ec.edu.ups.pm.proyecto.ui.Informacion"
+        android:label="Informacion"
+        tools:layout="@layout/fragment_informacion" />
 </navigation>
