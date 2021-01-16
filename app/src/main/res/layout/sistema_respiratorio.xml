@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SISTEMA RESPIRATORIO"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="298dp"
+        android:layout_height="264dp"
+        app:srcCompat="@drawable/respiratorio"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activar Simulación"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="146dp"
+        android:layout_height="252dp"
+        android:text="Saludable
+
+
+
+El aparato respiratorio es, sin dudas, uno de los sistemas más importantes que tenemos los seres humanos y también muchas especies animales porque permite que el oxígeno ingrese a nuestro cuerpo. Algo fundamental para la vida.
+Alimentos buenos para los pulmones
+Arroz integral
+Es fundamental garantizar un consumo diario de lo que Cánovas denomina “hidratos de carbono de calidad”. El experto recomienda evitar los procesados, las harinas refinadas y los alimentos ricos en azúcares añadidos, y apostar “por aquellos que aportan más nutrientes, más minerales y sobre todo fibra”.
+"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="146dp"
+        android:layout_height="252dp"
+        android:text="Dañino
+
+
+
+
+
+
+
+
+
+
+Embutidos
+La mayoría de las carnes curadas como el tocino, fiambres, jamón y perritos calientes contienen aditivos llamados nitratos. Las empresas a menudo agregan nitratos por color o para extender la vida útil.
+Sal excesiva
+La sal puede hacer que las personas retengan agua, y el exceso de agua puede causar problemas respiratorios. En lugar de usar sal o un sustituto de la sal, pruebe las hierbas y especias para mejorar el sabor de los alimentos.
+"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="413dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

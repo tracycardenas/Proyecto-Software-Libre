@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SISTEMA DIGESTIVO"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="182dp"
+        android:layout_height="433dp"
+        app:srcCompat="@drawable/digestivo"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="-23dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="161dp"
+        android:layout_height="244dp"
+        android:text="Saludable
+
+
+
+
+
+
+
+
+
+
+
+
+
+Consume aceite de oliva: El ácido oleico que se encuentra fundamentalmente en el aceite de oliva mejora la función pancreática y aumenta la absorción de minerales. Incluido en la dieta de forma habitual, reduce la acidez del estómago, retrasa su vaciamiento y parece tener efectos antiinflamatorios
+Toma fibra: La fibra vegetal, sobre todo la insoluble, retiene agua en la porción final del intestino grueso. Esto hace que las heces tengan una consistencia más blanda, lo cual facilita la defecación. La cantidad recomendada es de unos 30 g. al día. El exceso de fibra favorece el estreñimiento y la flatulencia
+"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="161dp"
+        android:layout_height="244dp"
+        android:text="Dañino
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Consumir aceite de oliva: El ácido oleico que se encuentra fundamentalmente en el aceite de oliva mejora la función pancreática y aumenta la absorción de minerales. Incluido en la dieta de forma habitual, reduce la acidez del estómago, retrasa su vaciamiento y parece tener efectos antiinflamatorios
+Toma fibra: La fibra vegetal, sobre todo la insoluble, retiene agua en la porción final del intestino grueso. Esto hace que las heces tengan una consistencia más blanda, lo cual facilita la defecación. La cantidad recomendada es de unos 30 g. al día. El exceso de fibra favorece el estreñimiento y la flatulencia
+"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activar Simulación"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="332dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
